@@ -53,5 +53,5 @@ export const Footer = styled.footer`
     justify-content: center;
     background: #000;
     color: white;
-    font-size:.5rem;
+    font-size:.7rem;
 `
