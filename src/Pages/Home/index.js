@@ -27,7 +27,7 @@ function App(props) {
   return (
     <>
       <S.Container>
-        <S.Title>Github Finder</S.Title>
+        <S.Title>Github Finder do Andrei</S.Title>
         <S.Content>
           <S.Input className="usuario" placeholder="Usuário" value={usuario} onChange={e => setUsuario(e.target.value)}/>
           <S.Button type="S.Button" onClick={handlePesquisa}>Pesquisar</S.Button>
