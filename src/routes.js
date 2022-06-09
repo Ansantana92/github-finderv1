@@ -5,7 +5,7 @@ import Home from "./Pages/Home";
 
 export default function RouteApp () {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route path='/' element={< Home />} />
                 <Route path='/repositories' element={< Repositories />} />
